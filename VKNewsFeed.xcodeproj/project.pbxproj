@@ -19,6 +19,7 @@
 		CA95545B24DB457F00192F29 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95545A24DB457F00192F29 /* API.swift */; };
 		CA98EF7824D9DBB300A37E41 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA98EF7724D9DBB300A37E41 /* AuthService.swift */; };
 		CA98EF7B24D9DFDA00A37E41 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA98EF7A24D9DFDA00A37E41 /* AuthViewController.storyboard */; };
+		CAD7E31524DC43B0009BB34D /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7E31424DC43B0009BB34D /* FeedResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CA95545A24DB457F00192F29 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		CA98EF7724D9DBB300A37E41 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CA98EF7A24D9DFDA00A37E41 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		CAD7E31424DC43B0009BB34D /* FeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +117,20 @@
 		CA98EF7924D9DBBD00A37E41 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				CAD7E31324DC4372009BB34D /* Models */,
 				CA98EF7724D9DBB300A37E41 /* AuthService.swift */,
 				CA95545824DB444600192F29 /* NetworkService.swift */,
 				CA95545A24DB457F00192F29 /* API.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CAD7E31324DC4372009BB34D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7E31424DC43B0009BB34D /* FeedResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		F0786CB5EC57EE184AECAC96 /* Frameworks */ = {
@@ -243,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD7E31524DC43B0009BB34D /* FeedResponse.swift in Sources */,
 				CA4C51A624D9D49900C29BEA /* AuthViewController.swift in Sources */,
 				CA4C51A224D9D49900C29BEA /* AppDelegate.swift in Sources */,
 				CA2A5BA624DA02C000280815 /* FeedViewController.swift in Sources */,
