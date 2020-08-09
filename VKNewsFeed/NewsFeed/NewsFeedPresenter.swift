@@ -18,7 +18,7 @@ class NewsFeedPresenter: NewsFeedPresentationLogic {
         let df = DateFormatter()
         df.locale = Locale(identifier: "ru_Ru")
         df.dateFormat = "d MMM 'в' HH:mm"
-        return df
+        return df 
     }()
   
   func presentData(response: NewsFeed.Model.Response.ResponseType) {
